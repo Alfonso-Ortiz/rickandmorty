@@ -4,6 +4,7 @@
   border-radius: 0.8em;
   overflow: hidden;
   transition: transform 200ms ease;
+  margin-top: 2rem;
 }
 
 .card:hover {

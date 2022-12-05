@@ -1,12 +1,13 @@
 .header__card {
   display: flex;
+  align-self: center;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
   background-color: #062226;
-  margin-bottom: 2rem;
+  margin: 0 auto;
   width: 88%;
-  margin-left: 2.4rem;
+  border-radius: 1rem;
 }
 
 .header__card-list {
@@ -30,7 +31,4 @@
 }
 
 @media (min-width: 800px) {
-  .header__card {
-    margin-left: 5rem;
-  }
 }
