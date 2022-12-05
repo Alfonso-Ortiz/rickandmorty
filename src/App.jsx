@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="App">
       <form className="card__inputs" onSubmit={handleSubmit}>
-        <img className="card__img" src="./public/img/image_2.svg" alt="" />
+        <img className="card__img" src="/img/image_2.svg" alt="" />
         <input id="inputSearch" type="text" />
         <button className="card__btn">Search</button>
       </form>
