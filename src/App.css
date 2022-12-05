@@ -1,0 +1,75 @@
+.residents-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card__inputs {
+  background-image: url(./img/3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.card__img {
+  height: 85px;
+  width: 200px;
+}
+
+#inputSearch {
+  border: none;
+  border-radius: 1rem;
+  height: 26px;
+  width: 200px;
+  background-color: rgba(97, 97, 97, 0.6);
+  color: white;
+}
+
+.card__btn {
+  border: none;
+  border-radius: 1rem;
+  transition: transform 200ms ease;
+  background-color: rgba(97, 97, 97, 0.6);
+  color: white;
+  height: 25px;
+  width: 70px;
+  font-size: 15px;
+}
+
+.card__btn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+@media (min-width: 800px) {
+  .card__inputs {
+    height: 340px;
+  }
+
+  .card__img {
+    height: 150px;
+    width: 420px;
+  }
+
+  #inputSearch {
+    height: 32px;
+    width: 320px;
+  }
+
+  .card__btn {
+    height: 28px;
+    width: 80px;
+    font-size: 16px;
+  }
+}
